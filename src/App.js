@@ -2,19 +2,15 @@ import React from "react";
 
 import Player from "./Player";
 import "./App.css";
-import Footer from "./Footer";
+
+import Layout from "./hoc/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <div className="content-wrap">
-        <header className="App-header">
-          <h3>Welcome to Video Player!!</h3>
-        </header>
+      <Layout className="content-wrap">
         <Player />
-      </div>
-
-      <Footer/>
+      </Layout>
     </div>
   );
 }

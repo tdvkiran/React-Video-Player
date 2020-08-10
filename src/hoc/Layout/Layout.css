@@ -1,0 +1,10 @@
+
+.Layout{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.LayoutFooter{
+    position: absolute;
+    bottom: 0;
+}
