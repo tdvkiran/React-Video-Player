@@ -1,6 +1,6 @@
 import React from "react";
 
-import Player from "./Player";
+import Player from "./containers/Player/Player";
 import "./App.css";
 
 import Layout from "./hoc/Layout/Layout";
