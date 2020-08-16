@@ -5,8 +5,8 @@
   min-height: 100vh;
   height: 100%;
 }
-.content-wrap{
-  flex:1;
+.content-wrap {
+  flex: 1;
 }
 
 .App-logo {
@@ -19,8 +19,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-
 
 .App-link {
   color: #61dafb;
